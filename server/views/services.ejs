@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | FoodSpot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<%- include('partials/header_index') %>
+<%- include('partials/main_nav') %>
+
+<!--Main section-->
+<section class="carousel-section">
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Assets/images/delivery.jpg" class="d-block w-100" alt="Food Delivery">
+                <div class="carousel-caption">
+                    <h5>Doorstep Delivery</h5>
+                    <p>Experience the flavors of the world from the comfort of your home. Quick, safe, and reliable.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-description">
+    <h2>Our Services</h2>
+    <p>We are more than just a food delivery service. At FoodSpot, we're committed to creating delightful experiences for each customer. From hand-picking the finest ingredients to ensuring timely deliveries, we've perfected the art of dining in.</p>
+</section>
+
+<!--Footer Section-->
+<footer style="position: fixed; left: 0; bottom: 0; width: 100%; padding: 10px; z-index: 1; background-color: #333; color: #fff;">
+    <p style="margin: 0;">&copy; 2023 FoodSpot Website. All rights reserved.</p>
+</footer>
+
+<!--Script Section-->
+<script src="/script/app.js"></script>
+<script src="/jquery/dist/jquery.min.js"></script>
+<script src='/bootstrap/dist/js/bootstrap.min.js'></script>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel-section {
+        padding: 50px 0;
+        background-color: #fff;
+    }
+
+    .carousel-caption h5 {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .carousel-caption p {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .services-description {
+        padding: 40px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+    .services-description h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .services-description p {
+        color: #666;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+</style>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | FoodSpot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <%- include('partials/header_index') %>
+    <%- include('partials/main_nav') %>
+
+    <!-- Main Content -->
+    <section class="about-section">
+        <h2 class="reach">ABOUT FOODSPOT</h2>
+        <blockquote>
+            "People who love to eat are always the best people." - Julia Child
+        </blockquote>
+        <div class="intro">
+            At FoodSpot, our passion is to deliver delicious meals right to your doorstep. Built on ambition, trust, and hard work, we've crafted a unique online food delivery experience just for you.
+        </div>
+
+        <div class="team-intro">
+            <div class="team-picture">
+                <img width="200px" height="200px" src="./Assets/images/ceo.jpg">
+            </div>
+            <div class="team-detail">
+                <h3>Our Mission</h3>
+                <p>Bringing the world's cuisines to your table with just a click. Dive into our journey and experience the magic of online food delivery.</p>
+            </div>
+        </div>
+
+        <div class="team-intro">
+            <div class="team-picture">
+                <img width="200px" height="200px" src="./Assets/images/team.jpg">
+            </div>
+            <div class="team-detail">
+                <h3>Our Passionate Team</h3>
+                <p>Meet the FoodSpot Family - a group of 5 dedicated professionals who have been setting standards in the online food delivery industry since 2022.</p>
+            </div>
+        </div>
+
+        <div class="team-intro">
+            <div class="team-picture">
+                <img width="200px" height="200px" src="./Assets/images/history.jpg">
+            </div>
+            <div class="team-detail">
+                <h3>Our Journey</h3>
+                <p>From a handful of 5 food enthusiasts with a vision, to the leading force in online food delivery. FoodSpot's story is one of passion, innovation, and culinary delights.</p>
+            </div>
+        </div>
+    </section>
+
+    <%- include('partials/bottom_nav') %>
+    <%- include('partials/footer') %>
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .about-section {
+            padding: 50px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .reach {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            font-size: 18px;
+            margin-bottom: 50px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        blockquote {
+            font-style: italic;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #333;
+            color: #777;
+        }
+
+        .team-intro {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-detail h3 {
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        .team-detail p {
+            color: #777;
+            font-size: 16px;
+        }
+
+        .team-picture img {
+            border-radius: 50%;
+            border: 3px solid #333;
+        }
+    </style>
+</body>
+
+</html>
