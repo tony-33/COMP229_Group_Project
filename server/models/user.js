@@ -12,15 +12,7 @@ let userModel = mongoose.Schema({
         required: 'Username is required'
     },
 
-/*
-    password:
-    {
-        type: String,
-        default: '',
-        trim: true,
-        required: 'Passord is required'
-    },
-*/
+
 
     email:
     {
